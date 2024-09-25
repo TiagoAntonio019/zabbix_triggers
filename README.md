@@ -1,1 +1,1 @@
-# zabbix_triggers
+# Zabbix Triggers

@@ -1,0 +1,4 @@
+#Network Rx Threshold
+#Don't forget to create the macro '{$NET_IN_MAX}'
+#Expression
+last(/services03/net.if.in["ens18"])>{$NET_IN_MAX}

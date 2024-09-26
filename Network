@@ -2,3 +2,8 @@
 #Don't forget to create the macro '{$NET_IN_MAX}', this field is expressed in bits
 #Expression
 last(/services03/net.if.in["ens18"])>{$NET_IN_MAX}
+
+#Network Tx Threshold
+#Don't forget to create the macro '{$NET_OUT_MAX}', this field is expressed in bits
+#Expression
+last(/services03/net.if.out["ens18"])>{$NET_OUT_MAX}

@@ -1,3 +1,5 @@
+#Network Triggers
+
 #Network Rx Threshold
 #Don't forget to create the macro '{$NET_IN_MAX}', this field is expressed in bits
 #Expression
